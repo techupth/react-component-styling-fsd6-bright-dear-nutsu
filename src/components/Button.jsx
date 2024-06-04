@@ -12,10 +12,9 @@ function Button(props) {
   return (
     <button
       css={css`
-        padding: 32px 100px;
-        margin-left: 100px;
+        padding: 20px 50px;
         background-color: ${bgColor};
-        font-size: 24px;
+        font-size: 16px;
         border: none;
         border-radius: 5px;
         text-align: center;
@@ -24,8 +23,8 @@ function Button(props) {
         }
       `}
     >
-      {/* {props.color} */}
-      Large
+      {props.text}
+      {/* Large */}
     </button>
   );
 }
