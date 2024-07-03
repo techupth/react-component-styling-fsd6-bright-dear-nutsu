@@ -1,6 +1,8 @@
+// src/App.jsx
 import "./App.css";
-import Button from "./components/Button";
-import Alert from "./components/Alert";
+import * as React from "react";
+import Button from "./component/button.jsx";
+import Alert from "./component/alert.jsx";
 
 function App() {
   return (
